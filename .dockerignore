@@ -1,0 +1,44 @@
+# Git
+.git
+.gitignore
+.github
+
+# Python
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+*.egg-info
+*.egg
+*.whl
+venv
+.venv
+env
+.env
+pip-log.txt
+pip-delete-this-directory.txt
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+*~
+
+# Project specific - don't copy to Docker
+README.md
+*.md
+terraform
+*.tf
+*.tfstate
+*.tfstate.backup
+Loom
+screenshots
+.env.local
+.pytest_cache
+coverage.xml
+htmlcov

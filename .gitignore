@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# AWS keys - NEVER commit
+*.pem
+*.key
+*.crt
+.aws/
+terraform.tfstate
+terraform.tfstate.backup
+*.tfstate
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Local env
+.env
+.env.local
+.env.production
+
+# Logs
+*.log
+logs/
+
+# Screenshots local
+screenshots/*.png
+screenshots/*.jpg
+!screenshots/README.md
+
+# Pytest
+.pytest_cache/
+htmlcov/
+.coverage
+coverage.xml
