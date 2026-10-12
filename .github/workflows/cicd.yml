@@ -7,7 +7,7 @@ on:
     branches: [ "main" ]
 
 env:
-  DOCKER_IMAGE: amardevops/flask-devops-app
+  DOCKER_IMAGE: amarnathreddy20/flask-devops-app
   # Change amardevops to your Docker Hub username
 
 jobs:
