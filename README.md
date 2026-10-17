@@ -1,4 +1,4 @@
-# 🚀 cloud-devops-cicd-flask-aws
+# cloud-devops-cicd-flask-aws
 ### Flask → Docker → GitHub Actions → Docker Hub → AWS EC2 Live
 
 **Live Demo:** `http://YOUR_EC2_IP` (Deploy to get your link)  
@@ -9,7 +9,7 @@
 
 ---
 
-## 📊 What This Project Proves (For Recruiters)
+## What This Project Proves (For Recruiters)
 
 ✅ **Docker:** Multi-stage build, 85% size reduction (1.2GB → 180MB), non-root user, healthcheck  
 ✅ **CI/CD:** GitHub Actions pipeline - Test → Build → Push → Deploy automatically on `git push`  
@@ -21,7 +21,7 @@
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 ┌─────────────┐      ┌──────────────────┐      ┌─────────────┐      ┌──────────────┐      ┌──────────┐
@@ -59,7 +59,7 @@
 
 ---
 
-## 🚀 Quick Start - 5 Minutes Local
+##  Quick Start - 5 Minutes Local
 
 ```bash
 # Clone
@@ -89,7 +89,7 @@ Test endpoints:
 
 ---
 
-## ☁️ Deploy to AWS EC2 - Step by Step (15 mins)
+##  Deploy to AWS EC2 - Step by Step (15 mins)
 
 ### Step 1: Create EC2 Instance
 
@@ -169,7 +169,7 @@ git push origin main
 
 ---
 
-## 📸 Screenshots (Add your own)
+##  Screenshots (Add your own)
 
 - [ ] Architecture diagram (you can generate with draw.io)
 - [ ] GitHub Actions successful run
@@ -181,7 +181,7 @@ Add to `screenshots/` folder and link here.
 
 ---
 
-## 🔧 How I Reduced Docker Image by 85%
+##  How I Reduced Docker Image by 85%
 
 **Before:** `python:3.11` full image + all files = 1.2GB
 
@@ -210,7 +210,7 @@ Result: `1.2GB → 180MB`
 
 ---
 
-## 🧪 Testing
+##  Testing
 
 ```bash
 # Install pytest
@@ -226,7 +226,7 @@ pytest --cov=app tests/
 
 ---
 
-## 🔒 Security Best Practices Implemented
+##  Security Best Practices Implemented
 
 - ✅ Non-root user in Docker (appuser, uid 1000)
 - ✅ No secrets in code - all via GitHub Secrets / env vars
@@ -238,7 +238,7 @@ pytest --cov=app tests/
 
 ---
 
-## 📈 Monitoring & Troubleshooting
+##  Monitoring & Troubleshooting
 
 **Check if app is running on EC2:**
 ```bash
@@ -264,8 +264,7 @@ docker logs -f flask-devops-app
 ```
 
 ---
-
-## 🎯 For Interviews - What to Say
+## For Interviews - What to Say
 
 **Q: Explain your CI/CD pipeline?**
 
@@ -281,7 +280,7 @@ docker logs -f flask-devops-app
 
 ---
 
-## 🔮 Next Improvements (Roadmap)
+##  Next Improvements (Roadmap)
 
 - [ ] Add Terraform to provision EC2 + Security Group + EIP (IaC)
 - [ ] Add Prometheus + Grafana monitoring via docker-compose
@@ -292,7 +291,7 @@ docker logs -f flask-devops-app
 
 ---
 
-## 📚 Cost
+##  Cost
 
 - **AWS EC2 t2.micro:** Free tier for 12 months (750 hrs/month free)
 - **Docker Hub:** Free for public repos
@@ -301,28 +300,25 @@ docker logs -f flask-devops-app
 
 ---
 
-## 👨‍💻 Author & Contact
+##  Author & Contact
 
 **Amar M S** - MCA Cloud Computing & DevOps (2025-2027)  
 S-VYASA University, Bengaluru  
-Chengalpattu, Tamil Nadu (Near Chennai IT Corridor)
 
 - GitHub: https://github.com/Amar1M
 - LinkedIn: https://linkedin.com/in/amar-m-s-0403a0309
 - Email: 20.amarms@gmail.com
 - Seeking: Cloud/DevOps Internship (Immediate, Chennai/Bengaluru/Remote)
 
-**If this project helped you, give it a ⭐ star!**
-
 ---
 
-## 📝 License
+##  License
 
 MIT - Free to use for your portfolio. If you fork, please star original repo.
 
 ---
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - TechWorld with Nana - Docker & CI/CD concepts
 - Abhishek Veeramalla - DevOps for MCA students
